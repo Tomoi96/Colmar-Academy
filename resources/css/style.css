@@ -1,0 +1,48 @@
+/* Navigation bar and logo */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    height: 64px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding-right: 24px;
+}
+
+header li {
+    padding-left: 16px;
+}
+
+/* First Section */
+
+.first-container {
+    background-color: lightgray;
+    display: flex;
+}
+
+.first-left {
+    display: contents;
+}
+
+.first-left img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.first-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
